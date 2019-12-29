@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Level]
+(
+	[LevelId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(128) NOT NULL, 
+    [Description] VARCHAR(128) NULL, 
+    [IsDeleted] BIT NOT NULL DEFAULT 0
+)

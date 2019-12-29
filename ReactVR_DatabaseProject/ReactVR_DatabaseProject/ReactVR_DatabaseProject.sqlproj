@@ -67,6 +67,17 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\UserAccount.sql" />
+    <Build Include="dbo\Tables\Organisation.sql" />
+    <Build Include="dbo\Tables\OrganisationMembership.sql" />
+    <Build Include="dbo\Tables\UserType.sql" />
+    <Build Include="dbo\Tables\OrganisationInvite.sql" />
+    <Build Include="dbo\Tables\PasswordReset.sql" />
+    <Build Include="dbo\Tables\Level.sql" />
+    <Build Include="dbo\Tables\LevelConfiguration.sql" />
+    <Build Include="dbo\Tables\TargetZone.sql" />
+    <Build Include="dbo\Tables\Target.sql" />
+    <Build Include="dbo\Tables\Scoreboard.sql" />
+    <Build Include="dbo\Tables\TargetAppearance.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ReactVR_DatabaseProject.refactorlog" />
@@ -76,5 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post Deployment Scripts\UserAccount.PostDeployment.sql" />
+    <None Include="Post Deployment Scripts\UserType.PostDeployment.sql" />
   </ItemGroup>
 </Project>
