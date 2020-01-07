@@ -84,4 +84,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TargetAppearanceId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="7b895956-6752-418e-a2ac-964360d947ea" ChangeDateTime="01/06/2020 17:39:37">
+    <Property Name="ElementName" Value="[dbo].[UserAccount].[IsDelete]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserAccount]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsDeleted" />
+  </Operation>
 </Operations>
