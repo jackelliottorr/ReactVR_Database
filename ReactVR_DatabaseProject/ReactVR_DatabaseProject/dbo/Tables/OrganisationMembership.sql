@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[OrganisationMembership]
 (
-	[OrganisationMembershipId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+	[OrganisationMembershipId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [OrganisationId] UNIQUEIDENTIFIER NOT NULL, 
     [UserAccountId] UNIQUEIDENTIFIER NOT NULL, 
     [UserTypeId] INT NOT NULL, 

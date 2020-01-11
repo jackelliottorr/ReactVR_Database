@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[TargetAppearance]
 (
-	[TargetAppearanceId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+	[TargetAppearanceId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [TargetId] UNIQUEIDENTIFIER NOT NULL, 
     [ScoreboardId] UNIQUEIDENTIFIER NOT NULL, 
     [TargetUptime] DECIMAL NOT NULL, 

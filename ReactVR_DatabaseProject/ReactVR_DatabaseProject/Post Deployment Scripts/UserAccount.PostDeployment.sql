@@ -12,6 +12,6 @@ Post-Deployment Script Template
 
 IF NOT EXISTS (SELECT * FROM dbo.UserAccount WHERE EmailAddress = 'jackelliottorr@protonmail.com')
 BEGIN
-    INSERT INTO dbo.UserAccount (UserAccountId, Name, EmailAddress, Password)
-    VALUES (NEWID(), 'Jack Orr', 'jackelliottorr@protonmail.com', '');
+    INSERT INTO dbo.UserAccount (UserAccountId, Name, EmailAddress, Password, CreatedDate)
+    VALUES (NEWID(), 'Jack Orr', 'jackelliottorr@protonmail.com', '', GETDATE());
 END

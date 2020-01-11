@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[OrganisationInvite]
 (
-	[OrganisationInviteId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+	[OrganisationInviteId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [OrganisationId] UNIQUEIDENTIFIER NOT NULL, 
     [InvitedById] UNIQUEIDENTIFIER NOT NULL, 
     [InviteUserType] INT NOT NULL, 
