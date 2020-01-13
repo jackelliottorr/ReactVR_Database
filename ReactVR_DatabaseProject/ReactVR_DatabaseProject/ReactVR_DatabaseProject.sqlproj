@@ -83,7 +83,6 @@
     <RefactorLog Include="ReactVR_DatabaseProject.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Publish Profiles\DESKTOP-EFE5Q9P.publish.xml" />
     <None Include="Publish Profiles\LOCAL_DESKTOP-EFE5Q9P.publish.xml" />
   </ItemGroup>
   <ItemGroup>
