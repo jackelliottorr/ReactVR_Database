@@ -3,7 +3,7 @@
 	[PasswordResetId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [UserAccountId] UNIQUEIDENTIFIER NOT NULL, 
     [CreatedDate] DATETIME NOT NULL DEFAULT GETDATE(), 
-    [ExpiryDate] DATETIME NOT NULL, 
+    [ExpiryDate] DATETIME NOT NULL DEFAULT DATEADD(MINUTE, 15, GETDATE()), 
     [IsUsed] BIT NOT NULL DEFAULT 0, 
     [IsDeleted] BIT NOT NULL DEFAULT 0, 
     CONSTRAINT [FK_PasswordReset_To_UserAccount] FOREIGN KEY ([UserAccountId]) REFERENCES [UserAccount]([UserAccountId])

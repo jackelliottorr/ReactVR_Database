@@ -2,9 +2,9 @@
 (
 	[TargetZoneId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [TargetZoneShape] NVARCHAR(50) NOT NULL, 
-    [TargetZoneX] DECIMAL NOT NULL, 
-    [TargetZoneY] DECIMAL NOT NULL, 
-    [TargetZoneZ] DECIMAL NOT NULL, 
+    [TargetZoneX] DECIMAL(18, 2) NOT NULL, 
+    [TargetZoneY] DECIMAL(18, 2) NOT NULL, 
+    [TargetZoneZ] DECIMAL(18, 2) NOT NULL, 
     [CreatedDate] DATETIME NOT NULL DEFAULT GETDATE(),
     [IsDeleted] BIT NOT NULL DEFAULT 0
 )
