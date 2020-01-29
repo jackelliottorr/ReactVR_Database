@@ -64,6 +64,7 @@
     <Folder Include="dbo\Programmability\Stored Procedures" />
     <Folder Include="Compares" />
     <Folder Include="Post Deployment Scripts" />
+    <Folder Include="ScriptToPopulate" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\UserAccount.sql" />
@@ -84,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish Profiles\LOCAL_DESKTOP-EFE5Q9P.publish.xml" />
+    <None Include="ScriptToPopulate\Script.sql" />
+    <None Include="ScriptToPopulate\DeleteData.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post Deployment Scripts\UserAccount.PostDeployment.sql" />
