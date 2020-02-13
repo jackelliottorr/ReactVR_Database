@@ -91,4 +91,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="IsDeleted" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="83a80be1-30ee-45ad-8db5-4bd07d6c7632" ChangeDateTime="02/13/2020 21:40:27">
+    <Property Name="ElementName" Value="[dbo].[OrganisationInvite].[AcceptedById]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OrganisationInvite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InvitedId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="91c7530d-add1-4db1-ac7d-f2430ddc8d08" ChangeDateTime="02/13/2020 21:40:44">
+    <Property Name="ElementName" Value="[dbo].[OrganisationInvite].[InvitedId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OrganisationInvite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InviteedId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="249dd488-b999-4b53-aee2-643717b7591d" ChangeDateTime="02/13/2020 22:44:00">
+    <Property Name="ElementName" Value="[dbo].[OrganisationMembership].[UserTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OrganisationMembership]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserType" />
+  </Operation>
 </Operations>

@@ -87,6 +87,7 @@
     <None Include="Publish Profiles\LOCAL_DESKTOP-EFE5Q9P.publish.xml" />
     <None Include="ScriptToPopulate\Script.sql" />
     <None Include="ScriptToPopulate\DeleteData.sql" />
+    <None Include="Publish Profiles\JACKSPC_MSSQLSERVER2019.publish.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post Deployment Scripts\UserAccount.PostDeployment.sql" />
